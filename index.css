@@ -1,0 +1,181 @@
+
+.intro,.introprojet{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro{
+    width: 100%;
+    height: 700px;
+    color: white;
+    background-color: #00BFFF;
+    
+}
+
+.intro> p >*{
+    width: 100%;
+    height: 30%;
+    color: white;
+    font-weight: bold;
+    font-size: 150px;
+    text-align: center;
+    opacity: 0;
+}
+
+.presentation{
+    
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.presentation>h1{
+    
+    height: 15%;
+    color: #00BFFF;
+    font-weight: bold;
+    font-size: 60px;
+    text-align: center;
+   
+   
+}
+span{
+    color: #00BFFF;
+}
+.presentation :nth-child(2){
+    
+    height: 40%;
+    font-size: 25px;
+    text-align: center;
+    line-height: 60px;
+    width: 80%;
+}
+
+.introprojet{
+    height: 300px;
+    width: 100%;
+    margin-top: 100px;
+    background-color: #00BFFF;
+    text-align: center;
+}
+.introprojet :nth-child(1){
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.phraseprojet {
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+.projet{
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.paraprojet{
+    height: 100%;
+    width: 33%;
+    
+}
+
+.paraprojet :nth-child(1){
+    width: 100%;
+    height: 80%;
+}
+
+.paraprojet :nth-child(2){
+    height: 10%;
+    color: black;
+    font-size: 30px;
+    margin-left:40px;
+}
+
+.paraprojet :nth-child(3){
+    height: 10%;
+    font-size: 20px;
+    margin-left:40px;
+    opacity: 0.5;
+}
+
+
+.contact{
+    height: 200px;
+    width: 100%;
+    margin-top: 100px;
+    background-color: #00BFFF;
+    font-size: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+    justify-content: center;
+}
+
+.contact :nth-child(1){
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    width: 100%;
+    height: 50%;
+}
+
+.mail{
+    height: 150px;
+    width: 100%;
+    background-color: #00BFFF;
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+    
+    
+
+.basdepage{
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: black solid 1px;}
+    
+
+.paralien{
+    
+    width: 200px;
+    text-align: center;
+    
+}
+
+.lien{
+    color: white;
+    font-size: 30px;
+    
+}
+
+.lien:hover{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+
+
